@@ -19,11 +19,6 @@ struct my_sprite {
 struct my_sprite bubble1;
 struct my_sprite bubble2;
 
-struct sp1_cs brick_object;
-struct sp1_cs brick_object2;
-struct sp1_cs window_object;
-struct sp1_update *bricks_update;
-
 // get the player keys input and update our sprite x/y
 void get_movement(){
 
